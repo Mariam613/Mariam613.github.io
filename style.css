@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,700|Ubuntu&display=swap');
+*{
+    font-family: "Bariol", sans-serif;
+}
+.hover{
+    color: gainsboro !important;
+}
+.hover:hover{
+    color: white !important;
+}
+.bg{
+    background-image: url(front-bg.34c63b94.jpg);
+    background-size: cover !important;
+}
+.position-absolute{
+    right: 4.5rem;
+    top: 317px;
+}
+@media (max-width:768px){
+    .position-absolute{
+        right: 6.6rem;
+        top: 40.5rem;
+    }
+}
+@media (max-width:576px){
+    .position-absolute{
+        right: 0.5rem;
+    top: 40.5rem;
+    }
+}
